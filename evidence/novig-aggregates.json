@@ -1,0 +1,117 @@
+{
+  "evidence_kind": "sanitized excerpts of corpus qualification and frozen historical evaluation",
+  "source_ids": [
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+  ],
+  "source_sha256": {
+    "S2": "fd5b9f1d26a43b3779f543669c514b115eaefef74e168e06d0bd84c201a053d9",
+    "S3": "5f3d674b5f68b12604dab914076963300bd07f2d31492f55f7bcc7b14b10c34f",
+    "S4": "1ceb8cf4f86fe688723887b62ea4cf9771d1eb21fb82844c37ff6e6eadd6dda6",
+    "S5": "62c52383e4f0b36a00c32f919f02eb2d87b914c3e80159f9bc33eba64dbe402a",
+    "S6": "a5e85f22c34ffbae578d442aa29e68f4cfc59b906ddc54bbb12340b89c726ae0"
+  },
+  "decompressed_result_sha256": "f5a3d6fd0e7a70eb7dd279cf0d53a6626b17be318ed4bfd4230a38289c35dab3",
+  "corpus_manifest_sha256": "07a70460e1a7462619e36729ad3d2b65bb083d16b8e959d36d3ebe7ee7c2a88c",
+  "observed_market_executions": 70598,
+  "canonical_games": 85,
+  "pregame_executions": 46992,
+  "at_or_after_start_executions": 23606,
+  "observed_window_utc": [
+    "2026-08-14T04:00:00.615Z",
+    "2026-08-19T03:59:53.177Z"
+  ],
+  "acquisition_date_counts": {
+    "2026-08-14": 15286,
+    "2026-08-15": 13856,
+    "2026-08-16": 16121,
+    "2026-08-17": 13036,
+    "2026-08-18": 12299
+  },
+  "frozen_before_outcome_evaluation_recorded": true,
+  "frozen_spec_lf_sha256": "6c70d2f1d501237ea709520814dea34c93dcafc131055abd171eb26791958b98",
+  "freeze_hash_check": "matched after CRLF-to-LF normalization of Windows checkout; no content changes",
+  "freeze_total_entries": 13,
+  "candidate_hypotheses": 12,
+  "diagnostic_controls": 1,
+  "survivors": 0,
+  "candidate_decisions": [
+    {
+      "id": "H01",
+      "decision": "KILL"
+    },
+    {
+      "id": "H02",
+      "decision": "KILL"
+    },
+    {
+      "id": "H03",
+      "decision": "KILL"
+    },
+    {
+      "id": "H04",
+      "decision": "KILL"
+    },
+    {
+      "id": "H05",
+      "decision": "KILL"
+    },
+    {
+      "id": "H06",
+      "decision": "KILL"
+    },
+    {
+      "id": "H07",
+      "decision": "KILL"
+    },
+    {
+      "id": "H08",
+      "decision": "KILL"
+    },
+    {
+      "id": "H09",
+      "decision": "KILL"
+    },
+    {
+      "id": "H10",
+      "decision": "KILL"
+    },
+    {
+      "id": "H11",
+      "decision": "KILL"
+    },
+    {
+      "id": "H12",
+      "decision": "KILL"
+    }
+  ],
+  "control_effects": [
+    {
+      "horizon_seconds": 60,
+      "all_execution_oriented_bounce_pp": 0.2932112657307508,
+      "same_side_oriented_bounce_pp": -0.0006903807318828085
+    },
+    {
+      "horizon_seconds": 300,
+      "all_execution_oriented_bounce_pp": 0.266561269417976,
+      "same_side_oriented_bounce_pp": -0.013466495495693504
+    },
+    {
+      "horizon_seconds": 900,
+      "all_execution_oriented_bounce_pp": 0.28726143257291503,
+      "same_side_oriented_bounce_pp": 0.002434782451790831
+    }
+  ],
+  "control_effect_meaning": "equal-game mean oriented execution-price probability movement; percentage points, not return",
+  "scientific_status": "historical discovery; no prospective validation",
+  "missing_information": [
+    "historical depth",
+    "historical midpoint",
+    "participant identity",
+    "actual strategy fills",
+    "profitability labels"
+  ]
+}

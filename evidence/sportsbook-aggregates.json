@@ -1,0 +1,178 @@
+{
+  "evidence_kind": "sanitized excerpt of retained aggregate analysis; no raw-data rerun",
+  "source_id": "S1",
+  "source_sha256": "f2709361b641def0d5fada3aed5f19c09e8c51689c2c42ac5c40fcb6a9e89e28",
+  "raw_export_sha256": "7f5f567cd566724bb7ae7c5188af6bf119e5c54b1f9ca46d25e2d2dca019cb6c",
+  "raw_export_available_publicly": false,
+  "census": {
+    "clusters": 873,
+    "invalid_close_window": 3,
+    "missing_close": 2471,
+    "raw": 7722,
+    "unique": 7722,
+    "usable": 5248
+  },
+  "split": {
+    "boundary": "2026-06-18T00:06:00+00:00",
+    "calibration_clusters": 698,
+    "holdout_clusters": 175
+  },
+  "method": {
+    "cluster": "event/game",
+    "entry": "immutable first observation",
+    "split": "80/20 chronological event clusters by earliest-observed scheduled start",
+    "bootstrap_resamples": 5000,
+    "bootstrap_seed": 20260818,
+    "interval": "95% percentile event-cluster bootstrap",
+    "valid_close_window_minutes": 20
+  },
+  "pooled": {
+    "full": [
+      {
+        "entry_edge_bucket_percent": "0-1%",
+        "observations": 2314,
+        "event_clusters": 733,
+        "mean_entry_edge_percent": 0.45789542,
+        "mean_clv_percent": -0.84322818,
+        "mean_clv_95pct_cluster_ci_percent": [
+          -1.02987707,
+          -0.64735537
+        ]
+      },
+      {
+        "entry_edge_bucket_percent": "1-2%",
+        "observations": 1253,
+        "event_clusters": 565,
+        "mean_entry_edge_percent": 1.46600958,
+        "mean_clv_percent": -0.04065443,
+        "mean_clv_95pct_cluster_ci_percent": [
+          -0.29466819,
+          0.22219028
+        ]
+      },
+      {
+        "entry_edge_bucket_percent": "2-4%",
+        "observations": 1135,
+        "event_clusters": 563,
+        "mean_entry_edge_percent": 2.76921586,
+        "mean_clv_percent": 1.08212335,
+        "mean_clv_95pct_cluster_ci_percent": [
+          0.77848213,
+          1.4132395
+        ]
+      },
+      {
+        "entry_edge_bucket_percent": "4%+",
+        "observations": 546,
+        "event_clusters": 340,
+        "mean_entry_edge_percent": 5.97906593,
+        "mean_clv_percent": 4.38847985,
+        "mean_clv_95pct_cluster_ci_percent": [
+          3.6624372,
+          5.28460953
+        ]
+      }
+    ],
+    "calibration": [
+      {
+        "entry_edge_bucket_percent": "0-1%",
+        "observations": 1983,
+        "event_clusters": 585,
+        "mean_entry_edge_percent": 0.46039334,
+        "mean_clv_percent": -0.87489158,
+        "mean_clv_95pct_cluster_ci_percent": [
+          -1.0937034,
+          -0.64042317
+        ]
+      },
+      {
+        "entry_edge_bucket_percent": "1-2%",
+        "observations": 1092,
+        "event_clusters": 466,
+        "mean_entry_edge_percent": 1.4678663,
+        "mean_clv_percent": -0.00526557,
+        "mean_clv_95pct_cluster_ci_percent": [
+          -0.29289695,
+          0.29181741
+        ]
+      },
+      {
+        "entry_edge_bucket_percent": "2-4%",
+        "observations": 998,
+        "event_clusters": 468,
+        "mean_entry_edge_percent": 2.77774549,
+        "mean_clv_percent": 1.1292986,
+        "mean_clv_95pct_cluster_ci_percent": [
+          0.77997366,
+          1.5291272
+        ]
+      },
+      {
+        "entry_edge_bucket_percent": "4%+",
+        "observations": 489,
+        "event_clusters": 294,
+        "mean_entry_edge_percent": 6.07302658,
+        "mean_clv_percent": 4.61233129,
+        "mean_clv_95pct_cluster_ci_percent": [
+          3.83020689,
+          5.58393014
+        ]
+      }
+    ],
+    "holdout": [
+      {
+        "entry_edge_bucket_percent": "0-1%",
+        "observations": 331,
+        "event_clusters": 148,
+        "mean_entry_edge_percent": 0.44293051,
+        "mean_clv_percent": -0.65353474,
+        "mean_clv_95pct_cluster_ci_percent": [
+          -0.9099006,
+          -0.38312257
+        ]
+      },
+      {
+        "entry_edge_bucket_percent": "1-2%",
+        "observations": 161,
+        "event_clusters": 99,
+        "mean_entry_edge_percent": 1.45341615,
+        "mean_clv_percent": -0.28068323,
+        "mean_clv_95pct_cluster_ci_percent": [
+          -0.67803063,
+          0.10083948
+        ]
+      },
+      {
+        "entry_edge_bucket_percent": "2-4%",
+        "observations": 137,
+        "event_clusters": 95,
+        "mean_entry_edge_percent": 2.70708029,
+        "mean_clv_percent": 0.73846715,
+        "mean_clv_95pct_cluster_ci_percent": [
+          0.31596289,
+          1.16228493
+        ]
+      },
+      {
+        "entry_edge_bucket_percent": "4%+",
+        "observations": 57,
+        "event_clusters": 46,
+        "mean_entry_edge_percent": 5.17298246,
+        "mean_clv_percent": 2.46807018,
+        "mean_clv_95pct_cluster_ci_percent": [
+          1.63278333,
+          3.38246276
+        ]
+      }
+    ]
+  },
+  "schedule_changes": {
+    "event_clusters": 18,
+    "observations": 285
+  },
+  "holdout_composition": {
+    "nba_observations": 0,
+    "mlb_moneyline_observations": 9,
+    "mlb_props_observations": 677
+  }
+}
